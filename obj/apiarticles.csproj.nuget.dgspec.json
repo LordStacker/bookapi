@@ -41,9 +41,41 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[34.0.2, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.151, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[7.0.0-alpha.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.0-preview.7.23375.9, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.0-preview.4, )"
+            },
+            "Npgsql.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0-preview.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

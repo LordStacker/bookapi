@@ -8,8 +8,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Bogus" Version="34.0.2" />
+    <PackageReference Include="Dapper" Version="2.0.151" />
+    <PackageReference Include="FluentAssertions" Version="7.0.0-alpha.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0-preview.7.23375.9" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Npgsql" Version="8.0.0-preview.4" />
+    <PackageReference Include="Npgsql.DependencyInjection" Version="8.0.0-preview.4" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.4" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="test\NewsAPITests\obj\NewsAPITests.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="test\NewsAPITests\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="test\NewsAPITests\obj\project.packagespec.json" />
   </ItemGroup>
 
 </Project>
